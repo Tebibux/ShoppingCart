@@ -1,8 +1,14 @@
+import Cart from "./Components/Cart"
+import Header from "./Components/Header"
+import ProductList from "./Components/ProductList"
+
 function App() {
 
   return (
     <>
-      <h1>hello world</h1>
+      <Header />
+      <ProductList /> 
+      <Cart />
     </>
   )
 }
