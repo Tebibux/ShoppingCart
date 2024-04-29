@@ -3,11 +3,11 @@ import ProductItems from "./subComponents/ProductItems"
 
 const ProductList = () => {
     return (
-        <>
-        <h2>This is product list page</h2>
-        <ProductImage />
-        <ProductItems />
-        </>
+        <div className="product-list">
+            <h2>This is product list page</h2>
+            <ProductImage />
+            <ProductItems />
+        </div>
     )
 }
 

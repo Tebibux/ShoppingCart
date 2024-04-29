@@ -1,4 +1,3 @@
-import Cart from "./Components/Cart"
 import Header from "./Components/Header"
 import ProductList from "./Components/ProductList"
 import './App.css'
@@ -9,7 +8,6 @@ function App() {
     <>
       <Header />
       <ProductList /> 
-      <Cart />
     </>
   )
 }
