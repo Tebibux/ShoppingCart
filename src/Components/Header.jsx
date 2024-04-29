@@ -1,6 +1,12 @@
 const Header = () => {
     return (
-        <h1>This is header!</h1>
+        <>
+            <div className="top-header">
+                <div className="cart-logo">HShop</div>
+                <div className="cart-brand-title">The Odin Cart</div>
+                <div className="cart">Cart icon</div>
+            </div>
+        </>
     )
 }
 
