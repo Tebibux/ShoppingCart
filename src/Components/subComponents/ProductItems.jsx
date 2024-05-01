@@ -1,4 +1,4 @@
-import ProductImage from "./subComponents/ProductImage";
+import ProductImage from '../../Components/subComponents/ProductImage'
 
 const ProductItems = () => {
   return (

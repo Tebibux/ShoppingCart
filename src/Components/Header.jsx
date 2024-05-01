@@ -2,8 +2,12 @@ const Header = () => {
     return (
         <>
             <div className="top-header">
-                <div className="cart-logo">HShop</div>
-                <div className="cart-brand-title">The Odin Cart</div>
+                <div className="brand">
+                    <div className="logo">
+                        <img src="/src/assets/image/Gemini_Generated_logo_image.jpeg" alt="fake store logo" />
+                    </div>
+                    <div className="brand-name">FakeBrand</div>
+                </div>
                 <div className="cart">Cart</div>
             </div>
         </>
