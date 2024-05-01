@@ -6,8 +6,11 @@ function App() {
 
   return (
     <>
+
       <Header />
-      <ProductList /> 
+      <div className="container">
+        <ProductList /> 
+      </div>
     </>
   )
 }

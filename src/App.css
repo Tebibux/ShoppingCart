@@ -24,5 +24,32 @@ body{
     color: var(--secondary-color); 
     padding: 10px;
     font-size: larger;
+    position: relative;
 }
-
+.cart-logo,
+.cart-brand-title
+{
+    padding: 20px;
+}
+.cart-brand-title{
+    font-size: 25px;
+}
+.cart{
+    padding-left: 40px;
+    right: 30%;
+    position:absolute;
+}
+.cart-logo{
+    font-size: 40px;
+    color: var(--primary-color);
+}
+.container{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    background-color: aquamarine;
+}
+.product-list{
+    display: flex;
+    justify-content: center;
+}
