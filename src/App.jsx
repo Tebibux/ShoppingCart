@@ -23,15 +23,29 @@ function App() {
             </p>
           </div>
         </section>
-        <section>
-          <ul>
-            <li className="randItem">cloths</li>
-            <li className="randItem">electronic</li>
-            <li className="randItem">Animal</li>
-            <li className="randItem">Wire</li>
-            <li className="randItem">Printing</li>
-          </ul>
-        </section>
+        <section className="category-slider">
+            <div className="slider-wrapper">
+              <ul className="slider">
+                <li className="randItem">
+                  <img src="/src/assets/image/sampleImage.png" alt="Electronics" />
+                  <span>Electronics</span>
+                </li>
+                <li className="randItem">
+                  <img src="/src/assets/image/sampleImage.png" alt="Jewelery" />
+                  <span>Jewelery</span>
+                </li>
+                <li className="randItem">
+                  <img src="/src/assets/image/sampleImage.png" alt="Mens Clothing" />
+                  <span>Mens Clothing</span>
+                </li>
+                <li className="randItem">
+                  <img src="/src/assets/image/sampleImage.png" alt="Womens Clothing" />
+                  <span>Womens Clothing</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+
       </div>
     </>
   )

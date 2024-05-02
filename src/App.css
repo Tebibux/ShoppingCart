@@ -73,3 +73,59 @@ body{
     color: white;
     
 }
+
+/* this is for slider section  */
+/* Keyframes for sliding animation */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+ 
+
+.category-slider {
+    margin: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+  /* Apply sliding animation to slider */
+    .slider {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    animation: slide 100s infinite; /* Adjust duration as needed */
+  }
+    /* Ensure all list items have the same width */
+.slider li {
+        flex: 0 0 50%; /* Display four items at a time */
+    }
+.slider li img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.slider li span {
+    display: block;
+  }
+  .randItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .randItem:nth-child(odd) {
+    background-color: #f9f9f9; /* Alternate background colors */
+  }
+  
+  .randItem:nth-child(even) {
+    background-color: #eaeaea; /* Alternate background colors */
+  }
+  
+/* the slider section will end here */
