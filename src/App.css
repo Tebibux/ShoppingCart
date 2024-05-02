@@ -75,41 +75,30 @@ body{
 }
 
 /* this is for slider section  */
-/* Keyframes for sliding animation */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
-  }
-  
- 
 
 .category-slider {
     margin: 30px;
-    width: 100%;
-    overflow: hidden;
+    width: inherit;
+    padding: 10px;
 }
 .slider-wrapper {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    justify-content: center;
 }
 
   /* Apply sliding animation to slider */
-    .slider {
+.slider {
     display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    animation: slide 100s infinite; /* Adjust duration as needed */
-  }
-    /* Ensure all list items have the same width */
+    gap: 10px;
+    justify-content: space-evenly;
+}
+/* Ensure all list items have the same width */
 .slider li {
-        flex: 0 0 50%; /* Display four items at a time */
+    margin: 10px;
     }
 .slider li img {
     width: 350px;
     height: 350px;
-    display: block;
-    margin: 0 auto 10px;
 }
 .slider li span {
     display: block;
