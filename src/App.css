@@ -56,3 +56,20 @@ body{
     display: flex;
     justify-content: center;
 }
+.intro-space{
+    margin: 20px;
+    width: 80%;
+    height: 40vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+}
+.intro-image{
+    height: 90%;
+    width: 80%;
+    background-color: #000000;
+    border-radius: 2%;
+    color: white;
+    
+}

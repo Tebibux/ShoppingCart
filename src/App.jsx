@@ -8,7 +8,21 @@ function App() {
 
       <Header />
       <div className="container">
-        <section>Intro content will be here</section>
+        <section className="intro-space">
+          <div className="intro-image">
+            image will be here
+          </div>
+          <div className="intro-text">
+            <h3>
+              Intro text will be here
+            </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Consequatur nisi neque quisquam consectetur dolore eos, 
+              voluptatibus perferendis molestiae commodi fugit doloremque,
+              aperiam odio nemo nobis, amet magni est placeat soluta.
+            </p>
+          </div>
+        </section>
         <section>
           <ul>
             <li className="randItem">cloths</li>
